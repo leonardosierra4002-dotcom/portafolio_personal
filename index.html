@@ -51,5 +51,49 @@
   section { background:#fff; padding:20px; margin-bottom:16px; border-radius:8px; }
   img { width:120px; height:auto; border-radius:4px; }
 </style>
-.libros { display: flex; gap: 16px; flex-wrap: wrap; }
-.libro { width: 200px; }
+<style>
+
+
+  .libros {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .libro {
+    width: 200px;
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .libro img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+</style>
+<section id="libros">
+  <h2>Libros que he leído</h2>
+  <div class="libros">
+    <div class="libro">
+      <h3>El Principito</h3>
+      <p><strong>Autor:</strong> Antoine de Saint-Exupéry</p>
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Littleprince.JPG" alt="Portada El Principito">
+    </div>
+    <div class="libro">
+      <h3>Cien Años de Soledad</h3>
+      <p><strong>Autor:</strong> Gabriel García Márquez</p>
+      <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Cien_a%C3%B1os_de_soledad_(book).jpg" alt="Portada Cien Años de Soledad">
+    </div>
+    <div class="libro">
+      <h3>Hábitos Atómicos</h3>
+      <p><strong>Autor:</strong> James Clear</p>
+      <img src="https://m.media-amazon.com/images/I/81F90H7hn-L._AC_UF1000,1000_QL80_.jpg" alt="Portada Hábitos Atómicos">
+    </div>
+  </div>
+</section>
+
